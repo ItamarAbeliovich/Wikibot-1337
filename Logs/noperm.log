@@ -9,7 +9,3 @@
 2020-04-09 13:29:19,706 INFO     Deleted 200 posts
 2020-04-09 14:01:46,707 INFO     Successfully pulled feed!
 2020-04-12 13:13:45,833 INFO     Successfully pulled feed!
-2020-05-05 16:54:07,437 logging_handler.py INFO     Successfully posted! Post ID 111348120509094_136024644708108
-2020-05-06 23:30:04,780 logging_handler.py INFO     Successfully posted! Post ID 111348120509094_136622761314963
-2020-05-07 00:00:05,306 logging_handler.py INFO     Successfully posted! Post ID 111348120509094_136631414647431
-2020-05-07 00:30:05,563 logging_handler.py INFO     Successfully posted! Post ID 111348120509094_136640181313221
