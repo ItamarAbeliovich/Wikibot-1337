@@ -354,8 +354,6 @@ def breadth_first_search(source_page_id, target_page_id, timeout=420):
         # ---  CHECK FOR PATH COMPLETION  ---#
         # The search is complete if any of the pages are in both unvisited backward and unvisited, so
         # find the resulting paths.
-        if time.time() - start_time > timeout:
-            return []
         done = False
         for page_id in unvisited_forward:
             if page_id in unvisited_backward:
@@ -422,6 +420,7 @@ def postloop(paths):
                     facebook_handler.post_to_facebook(header + "\n".join(path))
                     posted = True
                     empty = False
+                    time.sleep(60)
         else:
             posted = False
         time.sleep(1)
